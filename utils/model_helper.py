@@ -1,7 +1,7 @@
 import pickle
 import pandas as pd
 
-MODEL_PATH = "/Users/rafiandrianto/Desktop/Purwadhika/Module3/Deployment Project/models/model.pkl"
+MODEL_PATH = "../app/models/model.pkl"
 
 with open(MODEL_PATH, 'rb') as file:
     model = pickle.load(file)
